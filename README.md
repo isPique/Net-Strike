@@ -70,8 +70,12 @@ python NetStrike.py
 > [!IMPORTANT]
 > **You have to run the tool with admin privileges!**
 
-![Screenshot-1](https://github.com/isPique/Net-Strike/blob/main/Screenshot-1.png)
-![Screenshot-2](https://github.com/isPique/Net-Strike/blob/main/Screenshot-2.png)
+![Screenshot-1](https://github.com/isPique/Net-Strike/blob/main/Images/Screenshot-1.png)
+![Screenshot-2](https://github.com/isPique/Net-Strike/blob/main/Images/Screenshot-2.png)
 
 * **1 Thread = 1 connection**
 * The higher the number of threads you maintain, the stronger the attack will be.
+
+* For example, ICMP Flood:
+
+   ![Captured](https://github.com/isPique/Net-Strike/blob/main/Images/Captured.png)
