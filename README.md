@@ -13,7 +13,7 @@
 
 ## How it works:
 
-* Let's take udp flood as an example.
+* Let's take UDP Flood as an example.
 
 * A UDP flood attack can be initiated by sending a large number of UDP packets to random ports on a remote host. As a result, the distant host will:
 
