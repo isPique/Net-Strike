@@ -1,13 +1,15 @@
 > [!WARNING]
 > ***This tool is ONLY for demonstrate how network systems and services may be stressed under load and to help with understanding network performance. Unauthorized or malicious use of this tool can lead to legal consequences, including criminal charges.***
 
-# Presequites
+# Prerequisites
 
-- Python 3.x
-- Windows / Linux
-- [Scapy](https://scapy.net/)
-- [AIOHTTP](https://docs.aiohttp.org/)
-- [Fake User Agent](https://fake-useragent.readthedocs.io/)
+| Requirement | Version |
+|-------------|---------|
+| Python      | 3.7 or higher |
+| Windows / Linux | any version |
+| [Scapy](https://scapy.net/)  | Latest |
+| [AIOHTTP](https://docs.aiohttp.org/) | Latest |
+| [Fake User Agent](https://fake-useragent.readthedocs.io/) | Latest |
 
 ## Avaliable Attacks (will add more soon)
 
