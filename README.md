@@ -6,7 +6,7 @@
 | Requirement | Version |
 |-------------|---------|
 | Python      | 3.7 or higher |
-| Windows / Linux | any version |
+| Windows / Linux | Any |
 | [Scapy](https://scapy.net/)  | Latest |
 | [AIOHTTP](https://docs.aiohttp.org/) | Latest |
 | [Fake User Agent](https://fake-useragent.readthedocs.io/) | Latest |
