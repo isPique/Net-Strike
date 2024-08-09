@@ -42,7 +42,7 @@
 * For a large number of HTTP requests, the server may become unresponsive or crash. Net Strike can generate high volumes of HTTP requests, emulating the behavior of multiple clients and stressing the target server.
 
 > [!NOTE]
-> Including headers in the HTTP flood requests makes the requests appear more legitimate, as if they are coming from a real browser. This helps to avoid simple filtering mechanisms that may block requests without common headers.
+> Including headers in the HTTP flood requests makes the requests appear more legitimate, as if they are coming from a real browser. This helps to avoid simple filtering mechanisms that may block requests without common headers. You can add more headers if you want.
 
 # INSTALLATION
 
