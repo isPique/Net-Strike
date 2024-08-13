@@ -19,13 +19,13 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.11'
+        python-version: '3.8'
 
     - name: Install dependencies
       run: pip install fake-useragent aiohttp scapy
 
     - name: Run script
       run: |
-        sudo python3 NetStrike.py
+        python3 NetStrike.py
       env:
         PYTHONUNBUFFERED: 1
