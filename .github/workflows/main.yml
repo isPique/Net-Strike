@@ -19,12 +19,10 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.8'
+        python-version: '3.11'
 
     - name: Install dependencies
-      run: pip install scapy
-           pip install aiohttp
-           pip install fake-useragent
+      run: pip install fake-useragent aiohttp scapy
 
     - name: Run script
       run: |
