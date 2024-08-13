@@ -5,7 +5,7 @@
 
 | Requirement | Version |
 |-------------|---------|
-| Python      | 3.7 or higher |
+| Python      | 3.8 or higher |
 | Windows / Linux | Any |
 | [Scapy](https://scapy.net/)  | Latest |
 | [AIOHTTP](https://docs.aiohttp.org/) | Latest |
