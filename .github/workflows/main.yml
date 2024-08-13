@@ -26,6 +26,6 @@ jobs:
 
     - name: Run script
       run: |
-        python3 NetStrike.py
+        echo -e "3\ngithub.com\n50\n5\n3\n" | python3 NetStrike.py
       env:
         PYTHONUNBUFFERED: 1
