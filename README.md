@@ -68,7 +68,7 @@
 
 # USAGE
 ```bash
-python NetStrike.py
+sudo python3 NetStrike.py
 ```
 > [!IMPORTANT]
 > **You have to run the tool with admin privileges!**
