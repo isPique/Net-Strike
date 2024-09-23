@@ -1,7 +1,7 @@
 from logging import Formatter, StreamHandler, INFO, WARNING, ERROR, CRITICAL, basicConfig, addLevelName, getLogger
 from scapy.all import send, IP, TCP, UDP, ICMP, Raw, logging as scapy_logging
 from aiohttp import TCPConnector, ClientTimeout, ClientSession, ClientError
-from asyncio import gather, run, sleep as asynsleep, TimeoutError
+from asyncio import gather, run, TimeoutError
 from socket import gethostbyname, gaierror
 from threading import Thread, Event, Lock
 from os import system, urandom, name
