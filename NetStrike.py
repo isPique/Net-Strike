@@ -12,7 +12,7 @@ from time import sleep, time
 from random import randint
 
 # Check for root
-if not (name == 'nt' and __import__('ctypes').windll.shell32.IsUserAnAdmin() != 0) or (name != 'nt' and __import__('os').geteuid() == 0):
+if not (name == 'nt' and __import__('ctypes').windll.shell32.IsUserAnAdmin() != 0) or (name != 'nt' and __import__('os').geteuid() != 0):
     _exit("This script must be run with root privileges!")
 
 # Suppress scapy warnings
