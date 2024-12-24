@@ -11,9 +11,21 @@ from sys import exit as _exit
 from time import sleep, time
 from random import randint
 
-# Check for root
-if not (name == 'nt' and __import__('ctypes').windll.shell32.IsUserAnAdmin() != 0) or (name != 'nt' and __import__('os').geteuid() != 0):
-    _exit("This script must be run with root privileges!")
+import platform
+import os
+
+# Get current platform
+platform_name = platform.system().lower()
+
+# Check if running in WSL
+if "linux" in platform_name and "microsoft" in platform.uname().release.lower():
+    # WSL environment, treat as Linux
+    if os.geteuid() != 0:
+        _exit("This script must be run with root privileges!")
+else:
+    # Standard Unix-like systems or Windows
+    if not (platform_name == 'nt' and __import__('ctypes').windll.shell32.IsUserAnAdmin() != 0) and os.geteuid() != 0:
+        _exit("This script must be run with root privileges!")
 
 # Suppress scapy warnings
 scapy_logging.getLogger("scapy.runtime").setLevel(scapy_logging.ERROR)
