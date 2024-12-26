@@ -1,5 +1,4 @@
 from logging import Formatter, StreamHandler, INFO, WARNING, ERROR, CRITICAL, basicConfig, addLevelName, getLogger
-from scapy.all import send, IP, TCP, UDP, ICMP, Raw, logging as scapy_logging
 from aiohttp import TCPConnector, ClientTimeout, ClientSession, ClientError
 from asyncio import gather, run, TimeoutError
 from socket import gethostbyname, gaierror
@@ -12,8 +11,11 @@ from time import sleep, time
 from random import randint
 
 # Check for root
-if not (name == 'nt' and __import__('ctypes').windll.shell32.IsUserAnAdmin() != 0) or (name != 'nt' and __import__('os').geteuid() != 0):
+if not ((name == 'nt' and __import__('ctypes').windll.shell32.IsUserAnAdmin() != 0) or (name != 'nt' and __import__('os').geteuid() == 0)):
     _exit("This script must be run with root privileges!")
+
+# Import scapy
+from scapy.all import send, IP, TCP, UDP, ICMP, Raw, logging as scapy_logging
 
 # Suppress scapy warnings
 scapy_logging.getLogger("scapy.runtime").setLevel(scapy_logging.ERROR)
