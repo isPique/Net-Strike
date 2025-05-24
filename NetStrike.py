@@ -73,7 +73,7 @@ def display_banner():
          {1}-------{6}U{1}-{6}U{1}----------------
          {1}|                        |       |‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾|
          {1}|  {3}Code Author: {2}isPique  {0}{1}|             {3}GitHub: {2}https://github.com/isPique{0}
-         {1}|      {3}Version: {2}1.0      {0}{1}|           {3}Insta: {2}https://instagram.com/omrefarukk{0}
+         {1}|      {3}Version: {2}1.0      {0}{1}|           {3}Insta: {2}https://instagram.com/omwrswagg{0}
          {1}|                        |       |_____________________________________________|
          {1}--------------------------                        {6}\ (˶ᵔ ᵕ ᵔ˶) /{0}
                                                             {6}\         /{0}
